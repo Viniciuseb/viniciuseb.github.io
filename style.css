@@ -1,0 +1,148 @@
+/* viniciuseb.com */
+
+html {
+  margin: 0;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+::-moz-selection{
+  background:#D8D8D8;
+  color:#FFF;
+}
+
+::selection {
+  background:#D8D8D8;
+  color:#000000;
+}
+
+.link {
+  font-size: 30px;
+  padding:0px;
+  width:100%;
+}
+
+.link li {
+  display: inline;
+  font-size: 25px;
+  margin-left: -6px;
+  padding:0;
+  list-style:none;
+  overflow:auto;
+  margin:0 auto;
+}
+
+.link li a {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+.link li a:hover {
+  color: #424242;
+}
+
+.main {
+  text-align: center;
+  margin: auto;
+  width: 10%;
+}
+
+.content {
+  background: white;
+  border-radius: 20px;
+  margin-top:-150px;
+  position:absolute;
+  top:50%;
+  width: 10%;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow:    0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  box-shadow:         0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+}
+
+.name {
+  font-weight: 100;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.about {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+	opacity: 0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+}
+
+@media (max-width : 4000px) {
+  .main, .content {
+    width: 20%;
+  }
+}
+
+@media (max-width : 2200px) {
+  .main, .content {
+    width: 25%;
+  }
+}
+
+@media (max-width : 1600px) {
+  .main, .content {
+    width: 27%;
+  }
+}
+
+@media (max-width : 1300px) {
+  .main, .content {
+    width: 35%;
+  }
+}
+
+@media (max-width : 1000px) {
+  .main, .content {
+    width: 45%;
+  }
+}
+
+@media (max-width : 700px) {
+  .main, .content {
+    width: 65%;
+  }
+}
+
+@media (max-width : 600px) {
+  .main, .content {
+    width: 75%;
+  }
+}
+
+@media (max-width : 500px) {
+  .main, .content {
+    width: 85%;
+  }
+}
