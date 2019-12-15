@@ -23,17 +23,17 @@ body {
 
 .link {
   font-size: 30px;
-  padding:0px;
-  width:100%;
+  padding: 0px;
+  width: 100%;
 }
 
 .link li {
   display: inline;
   font-size: 25px;
   margin-left: -6px;
-  padding:0;
-  list-style:none;
-  overflow:auto;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
   margin:0 auto;
 }
 
@@ -50,19 +50,19 @@ body {
 .main {
   text-align: center;
   margin: auto;
-  width: 10%;
+  width: 3%;
 }
 
 .content {
   background: white;
   border-radius: 20px;
-  margin-top:-150px;
-  position:absolute;
-  top:50%;
+  margin-top: -150px;
+  position: absolute;
+  top: 40%;
   width: 10%;
   -webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
-  -moz-box-shadow:    0px 0px 27px 0px rgba(0, 0, 0, 0.51);
-  box-shadow:         0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
 }
 
 .name {
@@ -97,6 +97,16 @@ body {
 	opacity: 0.60;
 	-moz-opacity: 0.60;
 	filter: alpha(opacity=60);
+}
+
+.pp { 
+  margin-top:25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
 }
 
 @media (max-width : 4000px) {
