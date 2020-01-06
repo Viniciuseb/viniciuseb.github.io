@@ -1,3 +1,12 @@
+<script>
+if(navigator.browserLanguage) {
+	var lang = navigator.browserLanguage;
+} else if(navigator.language) {
+	var lang = navigator.language;
+} else {
+	var lang = en;
+}
+</script>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -24,6 +33,13 @@
 			<div class="content">
 				<img class="pp" src="pp.png"></img>
 				<div class="name">Vinicius Emidio Bosi</div>
+				<script>
+					if(lang.substring(0,2)=="pt") {
+						document.write('<div class="about">apenas um jovem tentando fazer coisas</div>')
+					} else (
+						document.write('<div class="about">just a young trying to do things</div>')
+					)
+				</script>
 				<ul class="link">
 					<li><a href="https://github.com/viniciuseb" title="github"><i class="fab fa-github"></i></a></li>
 					<li><a href="https://instagram.com/viniciuseb_" title="instagram"><i class="fab fa-instagram"></i></a></li>
