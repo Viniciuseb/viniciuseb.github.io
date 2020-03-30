@@ -65,6 +65,11 @@ body {
   box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.51);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .name {
   font-weight: 100;
   font-size: 32px;
@@ -75,6 +80,12 @@ body {
   font-weight: 300;
   font-size: 15px;
   margin-top: 30px;
+}
+
+.about-mail {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .bg {
